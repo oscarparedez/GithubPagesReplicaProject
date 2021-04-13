@@ -1,0 +1,85 @@
+* {
+    text-decoration: none;
+}
+
+.last-step-title {
+    color: #333;
+    font-size: 52px;
+    font-weight: 200;
+    line-height: 60px;
+    text-align: center;
+    margin: 90px auto 0 auto;
+    width:940px;
+}
+
+.last-step-container {
+    margin-top: 80px;
+    width:980px;
+    margin:0 auto;
+}
+.last-step-container p {
+    font-weight: 400;
+}
+.last-step-container li {
+    display: table-cell;
+    text-align: center;
+    padding: 0 20px 0;
+
+}
+
+li .p-title {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1em;
+    color: #4183c4;;
+    font-family: inherit;
+    margin-bottom: 20px;
+}
+
+.p-details {
+    margin: 15px 0 30px;
+    line-height: 1.7em;
+}
+
+.last-step-container li:first-child,
+.last-step-container li:last-child {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+a:hover {
+    color: #156cc2;
+}
+a {
+    color: #4183C4;
+    text-decoration: none;
+}
+
+.icon-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    text-align: center;
+    border: solid 1px #e5e5e5;
+    margin: 40px auto 40px;
+    display: block;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+.icon-container:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.iconPencil, .iconLink, .iconBook {
+    font-size: 48px;
+    display: inline-block;
+    color: #4183c4;
+    line-height: 100px;
+}
+

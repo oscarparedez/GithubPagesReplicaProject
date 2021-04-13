@@ -1,0 +1,29 @@
+footer {
+    position: relative;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #777;
+    clear: both;
+    width: 980px;
+    padding: 40px 0;
+    margin: 70px auto 0 auto;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-container, .right-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-element {
+    margin: 0px 5px;
+    font-size: 12px;
+}
+.registered {
+    color: #777;
+}
+.iconGithub {
+    color: #ccc;
+}

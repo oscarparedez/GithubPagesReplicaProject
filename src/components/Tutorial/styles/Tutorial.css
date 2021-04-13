@@ -1,0 +1,221 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.tutorial-title {
+    color: #333;
+    font-size: 52px;
+    font-weight: 200;
+    line-height: 60px;
+    text-align: center;
+    margin: 90px auto 0 auto;
+    width:940px;
+}
+
+.tutorial-subtitle {
+    text-align: center;
+    font-weight: 200;
+    line-height: 38px;
+    margin: 40px auto 0;
+    font-size: 21px;
+    max-width: 740px;
+}
+
+.tutorial-container {
+    text-align: center;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.btn-container {
+    margin: 45px auto 0;
+    font-size: 0;
+    list-style-type: none;
+}
+
+.btn-container button {
+    color: #323232;
+    background-color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 15px;
+    border: 1px solid #dddddd;
+    line-height: 1em;
+    position: relative;
+}
+
+.btn-container button:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.btn-container button:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn-container button:nth-child(even) {
+    margin: 0 -1px;
+}
+
+.btn-container button:hover {
+    color: #327fc7;
+    border-color: #327fc7;
+    z-index: 1;
+}
+.btn-container button.selected {
+    z-index: 2;
+    color: #fff;
+    background-color: #327fc7;
+    border-color: #327fc7;
+    outline: none;
+}
+
+.tutorial-steps {
+    list-style-type: none;
+    margin: 90px auto;
+    position: relative;
+    width: 980px;
+}
+
+.tutorial-steps > li {
+    margin: 0 0 70px 0px;
+    padding: 50px 0;
+    font-size: 18px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tutorial-steps .create-repo-step {
+    padding: 0px;
+}
+
+.create-repo-step {
+    display: flex;
+    justify-content: center;
+}
+
+.create-repo-step-image-container {
+    display: flex;
+    height: 100%;
+    border-left: solid 1px #e5e5e5;
+}
+
+.create-repo-step-img {
+    width:380px;
+    height: 328px;
+}
+
+.create-repo-step-text {
+    margin:40px;
+}
+
+.create-repo-step-text p.p-title, .question-step p.p-title, .cmd-step p.p-title, .done-step p.p-title {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1em;
+    color: #333;
+    font-family: inherit;
+    margin-bottom: 20px;
+}
+
+.create-repo-step-text p, .question-step p, .cmd-step p {
+    font-weight: 300;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+}
+
+.create-repo-step-text p.p-details {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bash {
+    width: 700px;
+    margin: 30px auto 0;
+}
+.header {
+    height: 25px;
+    display: block;
+    background: -moz-linear-gradient(top, #f7f7f7 0%, #cfcfcf 5%, #aaa 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(5%, #cfcfcf), color-stop(100%, #aaa));
+    background: -webkit-linear-gradient(top, #f7f7f7 0%, #cfcfcf 5%, #aaa 100%);
+    background: -o-linear-gradient(top, #f7f7f7 0%, #cfcfcf 5%, #aaa 100%);
+    background: -ms-linear-gradient(top, #f7f7f7 0%, #cfcfcf 5%, #aaa 100%);
+    background: linear-gradient(top, #f7f7f7 0%, #cfcfcf 5%, #aaa 100%);
+    border: 1px solid #9c9c9c;
+    border-bottom-color: #111;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 25px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+    color: #444;
+}
+.shell {
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    font-size: 17px;
+    line-height: 28px;
+    color: #eeeb82;
+    background-color: #3d3d3d;
+    overflow: hidden;
+    padding: 20px;
+    margin: 0;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-align: left;
+    display: block;
+}
+.shell p {
+    margin: 0;
+    font-weight: bold;
+}
+.symbol1 {
+    color: #71cfee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-right: 7px;
+}
+.symbol2 {
+    color: #d74d52;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-right: 7px;
+}
+.icon-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    text-align: center;
+    border: solid 1px #e5e5e5;
+    margin: 40px auto 0;
+    display: block;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+.icon-container:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.iconCheck {
+    font-size: 48px;
+    display: inline-block;
+    color: #4183c4;
+    line-height: 100px;
+    margin-left: 10px;
+}
