@@ -1,3 +1,6 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require('path')
+
 module.exports = {
   mode: 'production',
   module: {
@@ -44,4 +47,21 @@ module.exports = {
   devServer: {
     contentBase: './dist',
   },
+  entry: './src/index.js',
+  output: {
+    path: path.resolve(__dirname, './dist'),
+    filename: 'main.js',
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      templateContent: `
+        <html>
+          <body>
+            <div id="root"></div>
+            <script src="./main.js"></script>
+          </body>
+        </html>
+      `,
+    }),
+  ],
 }
